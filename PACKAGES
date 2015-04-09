@@ -1,0 +1,7 @@
+deps:
+  krlmlr/kimisc
+  grake/grake
+gh_packages:
+  hadley/testthat
+  jimhester/covr
+cran_packages:

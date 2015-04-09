@@ -6,10 +6,9 @@ FROM rocker/hadleyverse:latest
 ## This handle reaches Kirill
 MAINTAINER "Kirill Müller" krlmlr+github@mailbox.org
 
-## Copy DESCRIPTION file to be able to install dependencies
-COPY DESCRIPTION /pkg-src/
+## Copy configuration to keep this Dockerfile generic
+COPY PACKAGES /pkg-src/
 
 ## Install dependencies
 RUN cd /pkg-src && \
-  Rscript -e "devtools::install_github('hadley/testthat')" && \
-  Rscript -e "devtools::install_deps(dependencies = TRUE)"
+  Rscript -e 'deps <- strsplit(gsub("^\n", "", read.dcf("PACKAGES")[1,]), "\n"); devtools::install_github(deps$deps, TRUE); devtools::install_github(deps$gh_packages); if (length(deps$cran_packages) > 0) install.packages(deps$cran_packages)'

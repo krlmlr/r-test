@@ -11,4 +11,4 @@ COPY PACKAGES /pkg-src/
 
 ## Install dependencies
 RUN cd /pkg-src && \
-  Rscript -e 'deps <- strsplit(gsub("^\n", "", read.dcf("PACKAGES")[1,]), "\n"); devtools::install_github(deps$deps, TRUE); devtools::install_github(deps$gh_packages); if (length(deps$cran_packages) > 0) install.packages(deps$cran_packages)'
+  Rscript -e 'deps <- strsplit(gsub("^\n", "", read.dcf("PACKAGES")[1,]), "\n"); devtools::install_github(deps$deps, dependencies = TRUE); devtools::install_github(deps$gh_packages); if (length(deps$cran_packages) > 0) install.packages(deps$cran_packages)'

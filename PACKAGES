@@ -1,6 +1,7 @@
 deps:
   krlmlr/kimisc
   grake/grake
+  krlmlr/pdlyr
 gh_packages:
   hadley/testthat
   jimhester/covr

@@ -1,6 +1,6 @@
 ## Emacs, make this -*- mode: sh; -*-
 
-## start with the rocker 'daily' R-devel image
+## start with the rocker r-base image
 FROM rocker/r-base:latest
 
 ## This handle reaches Kirill

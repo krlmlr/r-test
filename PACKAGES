@@ -6,4 +6,5 @@ gh_packages:
   hadley/testthat
   jimhester/covr
   jimhester/lintr
+  gaborcsardi/staticdocs
 cran_packages:

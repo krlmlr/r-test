@@ -7,4 +7,5 @@ gh_packages:
   jimhester/covr
   jimhester/lintr
   gaborcsardi/staticdocs
+  rstudio/markdown
 cran_packages:

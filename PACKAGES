@@ -9,4 +9,3 @@ gh_packages:
   gaborcsardi/staticdocs
   rstudio/markdown
 cran_packages:
-  devtools

@@ -8,4 +8,5 @@ gh_packages:
   jimhester/lintr
   krlmlr/staticdocs@devel
   rstudio/markdown
+  hadley/plyr
 cran_packages:

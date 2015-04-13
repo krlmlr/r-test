@@ -12,7 +12,7 @@ COPY PACKAGES /pkg-src/
 ## Install dependencies
 RUN apt-get update && \
 	apt-get install -y --no-install-recommends \
-		ca-certificates openssh-client libcurl4-openssl-dev && \
+		ca-certificates openssh-client git libcurl4-openssl-dev && \
 	rm -rf /tmp/downloaded_packages/ /tmp/*.rds && \
 	rm -rf /var/lib/apt/lists/* && \
         Rscript -e 'read.dcf("pkg-src/PACKAGES")[1,]' && \

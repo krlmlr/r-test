@@ -6,6 +6,6 @@ gh_packages:
   hadley/testthat
   jimhester/covr
   jimhester/lintr
-  gaborcsardi/staticdocs
+  krlmlr/staticdocs@devel
   rstudio/markdown
 cran_packages:

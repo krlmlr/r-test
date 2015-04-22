@@ -1,13 +1,8 @@
+cran_packages:
 deps:
   krlmlr/kimisc
   grake/grake
   krlmlr/pdlyr
   krlmlr/MultiLevelIPF
 gh_packages:
-  hadley/testthat
-  jimhester/covr
-  jimhester/lintr
-  krlmlr/staticdocs@devel
-  rstudio/markdown
-  krlmlr/plyr
-cran_packages:
+apt:

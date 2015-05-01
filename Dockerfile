@@ -1,7 +1,7 @@
 ## Emacs, make this -*- mode: sh; -*-
 
 ## start with the rocker daily image
-FROM krlmlr/r-wercker-base:latest
+FROM rwercker/base:latest
 
 ## This handle reaches Kirill
 MAINTAINER "Kirill Müller" krlmlr+github@mailbox.org

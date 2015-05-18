@@ -5,5 +5,4 @@ deps:
   krlmlr/pdlyr
   krlmlr/MultiLevelIPF
 gh_packages:
-  krlmlr/devtools@aspell
 apt:

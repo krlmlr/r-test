@@ -1,4 +1,6 @@
 cran_packages:
+  plyr
+  dplyr
 deps:
   krlmlr/kimisc
   grake/grake

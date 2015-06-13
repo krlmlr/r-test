@@ -4,7 +4,6 @@ cran_packages:
 deps:
   krlmlr/kimisc
   grake/grake
-  krlmlr/pdlyr
   krlmlr/MultiLevelIPF
 gh_packages:
 apt:

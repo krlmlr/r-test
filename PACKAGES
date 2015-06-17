@@ -1,6 +1,7 @@
 cran_packages:
   plyr
   dplyr
+  logging
 deps:
   krlmlr/kimisc
   grake/grake

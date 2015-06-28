@@ -7,5 +7,7 @@ deps:
   krlmlr/kimisc
   grake/grake
   krlmlr/MultiLevelIPF
+  krlmlr/mangow
+  krlmlr/wrswoR
 gh_packages:
 apt:

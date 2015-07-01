@@ -3,6 +3,8 @@ cran_packages:
   dplyr
   logging
   ggplot2
+  knitcitations
+  ProjectTemplate
 deps:
   krlmlr/kimisc
   grake/grake

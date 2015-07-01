@@ -10,4 +10,5 @@ deps:
   krlmlr/mangow
   krlmlr/wrswoR
 gh_packages:
+  krlmlr/MakefileR
 apt:

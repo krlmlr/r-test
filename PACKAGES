@@ -13,4 +13,5 @@ deps:
   krlmlr/wrswoR
 gh_packages:
   krlmlr/MakefileR
+  hadley/devtools
 apt:

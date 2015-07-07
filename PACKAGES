@@ -5,6 +5,9 @@ cran_packages:
   ggplot2
   knitcitations
   ProjectTemplate
+gh_packages:
+  krlmlr/MakefileR
+  hadley/devtools
 deps:
   krlmlr/kimisc
   grake/grake
@@ -12,7 +15,4 @@ deps:
   krlmlr/mangow
   krlmlr/wrswoR
   krlmlr/rpkgweb
-gh_packages:
-  krlmlr/MakefileR
-  hadley/devtools
 apt:

@@ -8,6 +8,7 @@ cran_packages:
 gh_packages:
   krlmlr/MakefileR
   hadley/devtools
+  rstudio/rticles
 deps:
   krlmlr/kimisc
   grake/grake

@@ -5,6 +5,7 @@ cran_packages:
   ggplot2
   knitcitations
   ProjectTemplate
+  import
 gh_packages:
   krlmlr/MakefileR
   hadley/devtools

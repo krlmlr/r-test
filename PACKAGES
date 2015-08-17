@@ -1,6 +1,7 @@
 cran_packages:
   plyr
   dplyr
+  tidyr
   logging
   ggplot2
   knitcitations

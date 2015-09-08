@@ -18,4 +18,5 @@ deps:
   krlmlr/mangow
   krlmlr/wrswoR
   krlmlr/rpkgweb
+  krlmlr/autoroxy
 apt:

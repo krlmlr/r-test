@@ -12,6 +12,7 @@ gh_packages:
   krlmlr/MakefileR
   hadley/devtools
   rstudio/rticles
+  gaborcsardi/disposables
 deps:
   krlmlr/kimisc
   grake/grake

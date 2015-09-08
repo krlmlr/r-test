@@ -8,6 +8,7 @@ cran_packages:
   ProjectTemplate
   import
 gh_packages:
+  krlmlr/kimisc
   krlmlr/MakefileR
   hadley/devtools
   rstudio/rticles

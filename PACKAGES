@@ -14,7 +14,6 @@ gh_packages:
   rstudio/rticles
   gaborcsardi/disposables
 deps:
-  krlmlr/kimisc
   grake/grake
   krlmlr/MultiLevelIPF
   krlmlr/mangow

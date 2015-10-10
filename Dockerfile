@@ -29,4 +29,7 @@ RUN \
   Rscript -e 'deps <- strsplit(gsub("^\n", "", read.dcf("pkg-src/PACKAGES")[1,]), "\n"); if (length(deps$cran_packages) > 0) install.packages(deps$cran_packages, INSTALL_opts = "--install-tests"); devtools::install_github(deps$gh_packages); devtools::install_github(deps$deps, dependencies = TRUE); remove.packages(sapply(strsplit(deps$deps, "[/@#]"), `[[`, 2))' && \
   Rscript -e 'installed.packages()[, "Version", drop = FALSE]'
 
+RUN \
+  ln -s /bin/true /bin/qpdf
+
 ## End

@@ -21,4 +21,3 @@ deps:
   krlmlr/rpkgweb
   krlmlr/autoroxy
 apt:
-  strace

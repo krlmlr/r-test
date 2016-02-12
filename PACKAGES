@@ -7,6 +7,7 @@ cran_packages:
   knitcitations
   ProjectTemplate
   import
+  tikzDevice
 gh_packages:
   krlmlr/roxygen@develop
   krlmlr/kimisc
@@ -21,3 +22,4 @@ deps:
   krlmlr/rpkgweb
   krlmlr/autoroxy
 apt:
+  libpng12-dev

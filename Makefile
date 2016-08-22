@@ -1,7 +1,7 @@
 all: build
 
 build:
-	docker build .
+	docker build --rm=false .
 
 ping:
 	git commit --allow-empty -m "ping"

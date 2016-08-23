@@ -21,6 +21,3 @@ deps:
   krlmlr/wrswoR
   krlmlr/rpkgweb
   krlmlr/autoroxy
-apt:
-  libpng12-0
-  libpng12-dev
